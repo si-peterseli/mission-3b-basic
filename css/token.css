@@ -1,0 +1,70 @@
+:root {
+  /* -- MAIN / PRIMARY COLORS */
+  --color-primary-default: rgba(50, 84, 255, 1);
+  --color-primary-100: rgba(36, 63, 219, 1);
+  --color-primary-200: rgba(25, 45, 183, 1);
+  --color-primary-300: rgba(15, 30, 147, 1);
+  --color-primary-400: rgba(9, 20, 122, 1);
+
+
+  /* -- TEXT COLORS */
+  /* Dark Text */
+  --color-text-dark-primary: rgba(58, 53, 65, 0.87);
+  --color-text-dark-secondary: rgba(58, 53, 65, 0.68);
+  --color-text-dark-disabled: rgba(58, 53, 65, 0.38);
+
+  /* Light Text */
+  --color-text-light-primary: rgba(231, 227, 252, 0.87);
+  --color-text-light-secondary: rgba(231, 227, 252, 0.68);
+  --color-text-light-disabled: rgba(231, 227, 252, 0.38);
+
+  /* -- BACKGROUNDS & SURFACES (OTHER) */
+  --color-bg-paper: rgba(34, 40, 42, 1);
+  --color-bg-body: rgba(47, 51, 52, 1);
+  --color-bg-body-transparent: rgba(47, 51, 52, .84);
+  --color-bg-page-header: rgba(24, 26, 28, 1);
+  --color-extra-bold: rgba(61, 65, 66, 1);
+
+  /* Borders & Component Backgrounds */
+  --color-border-outline: rgba(231, 227, 252, 0.23);
+  --color-border-input: rgba(231, 227, 252, 0.22);
+  --color-bg-input-field: rgba(231, 227, 252, 0.04);
+  --color-bg-chip: rgba(231, 227, 252, 0.08);
+
+  /* -- STATE / SYSTEM COLORS */
+  /* Info */
+  --color-info-default: rgba(5, 134, 255, 1);
+  --color-info-hover: rgba(3, 103, 219, 1);
+  --color-info-pressed: rgba(2, 77, 183, 1);
+  --color-info-bg: rgba(205, 241, 255, 0.3);
+
+  /* Success */
+  --color-success-default: rgba(159, 224, 74, 1);
+  --color-success-hover: rgba(126, 192, 54, 1);
+  --color-success-pressed: rgba(96, 161, 37, 1);
+  --color-success-bg: rgba(244, 253, 219, 0.8);
+
+  /* Warning */
+  --color-warning-default: rgba(255, 231, 15, 1);
+  --color-warning-hover: rgba(219, 196, 10, 1);
+  --color-warning-pressed: rgba(183, 162, 7, 1);
+  --color-warning-bg: rgba(255, 252, 207, 0.8);
+
+  /* Error */
+  --color-error-default: rgba(255, 91, 58, 1);
+  --color-error-hover: rgba(219, 58, 42, 1);
+  --color-error-pressed: rgba(183, 31, 29, 1);
+  --color-error-bg: rgba(255, 234, 215, 0.5);
+
+  /* Grayscale */
+  --color-grayscale-900: rgba(33, 33, 33, 1);
+  --color-grayscale-800: rgba(66, 66, 66, 1);
+  --color-grayscale-700: rgba(97, 97, 97, 1);
+  --color-grayscale-600: rgba(117, 117, 117, 1);
+  --color-grayscale-500: rgba(158, 158, 158, 1);
+  --color-grayscale-400: rgba(189, 189, 189, 1);
+  --color-grayscale-300: rgba(224, 224, 224, 1);
+  --color-grayscale-200: rgba(238, 238, 238, 1);
+  --color-grayscale-100: rgba(245, 245, 245, 1);
+  --color-grayscale-50: rgba(250, 250, 250, 1);
+}

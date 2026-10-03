@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "./token.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input { outline: none; }
+li { list-style-type: none; }
+a { text-decoration: none; }
+
+/* -- Heading */
+.heading-1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+.heading-2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+.heading-3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+}
+.heading-4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.heading-5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.heading-6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+/* -- Other */
+/* Body Large */
+.body-large-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-large-semibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-large-medium {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-large-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Body Medium */
+.body-medium-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-medium-semibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-medium-medium {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-medium-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Body Small */
+.body-small-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-small-semibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-small-medium {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.body-small-regular { 
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Caption 1 */
+.caption-1-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-1-semibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-1-medium {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-1-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Caption 2 */
+.caption-2-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-2-semibold {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-2-medium {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+.caption-2-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+
+/* -- Unstyled Button */
+/* Unstyle Standard */
+.unstyled-btn-large {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  padding-right: 26px;
+  padding-bottom: 12px;
+  padding-left: 26px;
+  background-color: transparent;
+  border: none;
+  color: var(--color-text-dark-primary);
+}
+.unstyled-btn-medium {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  background-color: transparent;
+  border: none;
+  color: var(--color-text-dark-primary);
+}
+
+
+/* -- Button */
+/* Button Primary */
+.btn-primary-contained {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--color-primary-400);
+  color: white;
+}
+.btn-primary-shadow {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--color-primary-200);
+  color: white;
+}
+.btn-primary-outlined {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: 1px solid var(--color-primary-default);
+  background-color: transparent;
+  color: var(--color-primary-default);
+}
+
+/* Button Secondary */
+.btn-secondary-contained {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--color-bg-body);
+  color: white;
+}
+.btn-secondary-shadow {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: transparent;
+  color: var(--color-bg-body);
+}
+.btn-secondary-outlined {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: 1px solid var(--color-bg-body);
+  background-color: transparent;
+  color: var(--color-bg-body);
+}
+
+/* Button Disabled */
+.btn-disabled-contained {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--color-grayscale-400);
+  color: var(--color-text-dark-disabled);
+}
+.btn-disabled-shadow {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: none;
+  background-color: var(--color-grayscale-300);
+  color: var(--color-text-dark-disabled);
+}
+.btn-disabled-outlined {
+  padding: 10px 26px;
+  border-radius: 48px;
+  border: 1px solid var(--color-text-dark-disabled);
+  background-color: var(--color-grayscale-200);
+  color: var(--color-text-dark-disabled);
+}
